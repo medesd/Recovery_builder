@@ -26,6 +26,10 @@ jobs:
              cd work
              repo init -u $MANIFEST -b $BRANCH --depth=1
              repo sync -c -j`nproc` --force-sync --no-clone-bundle --no-tags
+             echo $DT_LINK
+             echo $DT_BRANCH
+             echo $VENDOR
+             echo $DEVICE
              git clone $DT_LINK -b $DT_BRANCH device/$VENDOR/$DEVICE
 
        - name: Build recovery
