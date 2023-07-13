@@ -6,7 +6,7 @@ export MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp
 export BRANCH="twrp-9.0" # the branch of manifest
 
 # about your device
-export DEVICE="m10lte" # codename used in device tree
+export DEVICE="j7duolte" # codename used in device tree
 export DT_LINK="https://github.com/medesd/android_recovery_samsung_j7duolte" # device tree link
 export DT_BRANCH="twrp" # device tree branch
 export VENDOR="samsung" # device manufacturer or vendor
